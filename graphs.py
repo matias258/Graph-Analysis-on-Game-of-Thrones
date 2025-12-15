@@ -99,8 +99,8 @@ def main():
     start_time = time.time()
     
     # 2.1. Nombres de archivo
-    NODES_FILE = 'got-nodes.csv'
-    EDGES_FILE = 'got-edges.csv'
+    NODES_FILE = 'datasets/got-nodes.csv'
+    EDGES_FILE = 'datasets/got-edges.csv'
 
     # 2.2. Construcción del Grafo
     print("## Paso 1: Construcción del Grafo")

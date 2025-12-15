@@ -57,3 +57,19 @@ print("List of nodes: ", list(DG.nodes()))
 print("List of edges: ", list(DG.edges()))
 print("List of neighbors of node 1: ", list(G.neighbors(1)))
 print("Degree of node 1: ", G.degree[1], "\n")
+
+
+
+
+# Access patterns
+
+G.nodes["spam"]["color"] = "blue"
+G.edges[(1, 2)]["weight"] = 10
+
+print("Number of edges: ",G.number_of_edges())
+print("Number of nodes: ", G.number_of_nodes())
+print("List of nodes: ", list(G.nodes()))
+print("List of edges: ", list(G.edges()), "\n")
+
+
+# Removing elements from a graph
